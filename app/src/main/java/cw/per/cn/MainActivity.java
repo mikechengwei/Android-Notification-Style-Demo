@@ -44,31 +44,31 @@ public class MainActivity extends Activity {
     @OnClick(R.id.BigPictureStyle_notifcation)
     public  void displayBigPictureStyleNotification()
     {
-        notificationCreator.createBigPictureStyle(this);
+        notificationCreator.createBigPictureNotification(this);
     }
     @OnClick(R.id.BigTextStyle_notifcation)
     public  void displayBigTextStyleNotification()
     {
-        notificationCreator.createBigTextStyle(this);
+        notificationCreator.createBigTextNotification(this);
     }
     @OnClick(R.id.InBoxStyle_notifcation)
     public  void displayInBoxStyleNotification()
     {
-        notificationCreator.createInBoxStyle(this);
+        notificationCreator.createInBoxNotification(this);
     }
     @OnClick(R.id.HangUpStyle_notifcation)
     public  void displayHangUpStyleNotification()
     {
-        notificationCreator.createHangUpStyle(this);
+        notificationCreator.createHangUpNotification(this);
     }
     @OnClick(R.id.MediaStyle_notifcation)
     public  void displayMediaStyleNotification()
     {
-        notificationCreator.createMediaStyle(this);
+        notificationCreator.createMediaNotification(this);
     }
     @OnClick(R.id.template_notifcation)
     public  void displayTemplateNotification()
     {
-        notificationCreator.createTemplateStyleNotification(this);
+        notificationCreator.createTemplateNotification(this);
     }
 }

@@ -75,7 +75,7 @@ public class NotificationCreator {
         Notification notification = builder.build();
         notificationManager.notify(TYPE_Progress,notification);
     }
-    public void createBigTextStyle(Context context){
+    public void createBigTextNotification(Context context){
 
         android.support.v4.app.NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setContentTitle("BigTextStyle")
@@ -96,7 +96,7 @@ public class NotificationCreator {
         Notification notification = builder.build();
         notificationManager.notify(TYPE_BigText,notification);
     }
-    public void createInBoxStyle(Context context){
+    public void createInBoxNotification(Context context){
         android.support.v4.app.NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setContentTitle("InboxStyle")
                 .setContentText("InboxStyle演示示例")
@@ -119,7 +119,7 @@ public class NotificationCreator {
         Notification notification = builder.build();
         notificationManager.notify(TYPE_Inbox,notification);
     }
-    public void createBigPictureStyle(Context context){
+    public void createBigPictureNotification(Context context){
         android.support.v4.app.NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setContentTitle("BigPictureStyle")
                 .setContentText("BigPicture演示示例")
@@ -139,7 +139,7 @@ public class NotificationCreator {
         Notification notification = builder.build();
         notificationManager.notify(TYPE_BigPicture,notification);
     }
-    public  void createHangUpStyle(Context context){
+    public  void createHangUpNotification(Context context){
         android.support.v4.app.NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setContentTitle("横幅通知")
                 .setContentText("请在设置通知管理中开启消息横幅提醒权限")
@@ -155,7 +155,7 @@ public class NotificationCreator {
         Notification notification = builder.build();
         notificationManager.notify(TYPE_Hangup,notification);
     }
-    public void createMediaStyle(Context context){
+    public void createMediaNotification(Context context){
         android.support.v4.app.NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setContentTitle("MediaStyle")
                 .setContentText("Song Title")
@@ -185,7 +185,7 @@ public class NotificationCreator {
         notificationManager.notify(TYPE_Media,notification);
     }
     //自定义布局的Notification
-    public void createTemplateStyleNotification(Context context){
+    public void createTemplateNotification(Context context){
         RemoteViews customView = new RemoteViews(context.getPackageName(),
                 R.layout.notification_template);
         Intent intent = new Intent(context,TestActivity.class);
