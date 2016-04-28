@@ -9,5 +9,3 @@ contain:<br>
 * HangUpNotification
 * MediaNotification
 * TemplateNotification
-
-![MacDown logo](/Users/chengwei/Desktop/a.jpg)
